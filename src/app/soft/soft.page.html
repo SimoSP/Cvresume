@@ -1,0 +1,48 @@
+<!-- Simo Partanen 1900414 -->
+
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Soft skills
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Soft skills</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-label>Communication</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>Flexibility</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>Time management</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>Teamwork</ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="technical">
+        <ion-icon name="analytics-outline"></ion-icon>
+        <ion-label>Technical Skills</ion-label>
+      </ion-tab-button>
+      <ion-tab-button tab="soft">
+        <ion-icon name="body-outline"></ion-icon>
+        <ion-label>Soft skills</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+</ion-tabs>
+</ion-content>

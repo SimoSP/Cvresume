@@ -1,19 +1,21 @@
+/// Simo Partanen 1900414
+
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { HomePage } from './home.page';
+import { TechnicalPage } from './technical.page';
 
-describe('HomePage', () => {
-  let component: HomePage;
-  let fixture: ComponentFixture<HomePage>;
+describe('TechnicalPage', () => {
+  let component: TechnicalPage;
+  let fixture: ComponentFixture<TechnicalPage>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ HomePage ],
+      declarations: [ TechnicalPage ],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(HomePage);
+    fixture = TestBed.createComponent(TechnicalPage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));

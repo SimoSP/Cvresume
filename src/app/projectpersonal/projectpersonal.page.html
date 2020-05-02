@@ -1,0 +1,39 @@
+<!-- Simo Partanen 1900414 -->
+
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Personal projects
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Personal projects</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-label>This app</ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="team">
+        <ion-icon name="people-outline"></ion-icon>
+        <ion-label>Team projects</ion-label>
+      </ion-tab-button>
+      <ion-tab-button tab="solo">
+        <ion-icon name="person-outline"></ion-icon>
+        <ion-label>Personal projects</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+</ion-tabs>
+</ion-content>
